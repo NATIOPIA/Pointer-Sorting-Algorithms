@@ -5,7 +5,7 @@
    ID:RMNS-7783-/23
    Course:DSA
 
-## Complexity Analysis
+## Complexity Analysis for Bubble Sorting
 1. Time Complexity:
     -Worst Case: O(n²)
         -This occurs when the array is sorted in reverse order. The algorithm has to make the maximum number of comparisons and swaps.
@@ -17,7 +17,7 @@
     -O(1)
         -Bubble Sort is an in-place sorting algorithm, meaning it does not require additional storage proportional to the input size.
 
-## Summary
+## Summary For Bubble Sorting
     -Efficiency: Bubble Sort is generally inefficient for large datasets due to its O(n²) time complexity in both average and worst cases. It performs well on small datasets or nearly sorted arrays.
     -Stability: Bubble Sort is a stable sorting algorithm, which means that the relative order of equal elements is preserved.
     -In-Place: The algorithm operates in-place, requiring only a constant amount of additional storage space (O(1)).
